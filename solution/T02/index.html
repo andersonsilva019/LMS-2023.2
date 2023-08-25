@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio | Anderson Silva</title>
+</head>
+
+<body>
+  <h1>Portfólio</h1>
+  <ul>
+
+    <!-- Link one -->
+    <li>
+      <a href="https://www.github.com/andersonsilva019">
+        My github
+      </a>
+    </li>
+
+    <!-- Link two -->
+    <li>
+      <a href="https://moodle2.quixada.ufc.br/login/index.php">
+        Moodle
+      </a>
+    </li>
+
+    <!-- Link three -->
+    <li>
+      <a href="https://www.linkedin.com/in/anderson-silva-3a3883188">
+        <img src="img/logo-linkedin.svg" alt="Logo do linkedin" />
+      </a>
+    </li>
+  </ul>
+
+  <!-- Section of repositories -->
+  <section>
+    <h1>Repositories</h1>
+    <table border="2px">
+      <!-- Table header -->
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+
+      <!-- Table body -->
+      <tbody>
+
+        <!-- Table row 1 -->
+        <tr>
+          <td>AndersonBlog</td>
+          <td>This is my <b>personal blog</b></td>
+        </tr>
+
+        <!-- Table row 2 -->
+        <tr>
+          <td>Security</td>
+          <td>This repository is dedicated to the final project of the security course</td>
+        </tr>
+
+        <!-- Table row 3 -->
+        <tr>
+          <td>Ecommerce-coffee</td>
+          <td>Ecommerce coffee is an application to studies</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <article>
+    <h1>Formulário</h1>
+    <form action="https://www.w3schools.com/action_page.php">
+
+      <!-- first fieldset with personal information -->
+      <fieldset>
+        <legend>Informações pessoais</legend>
+
+        <!-- label and input for name -->
+        <label>
+          Name <br />
+          <input type="text" name="name" maxlength="15" />
+        </label>
+
+        <br />
+
+        <!-- label and input for email -->
+        <label>
+          E-mail <br />
+          <input type="email" name="email" readonly value="andersonnsilva015@gmail.com" />
+        </label>
+
+        <br />
+
+        <!-- label and input for year of birth -->
+        <label>
+          Ano de nascimento <br />
+          <input type="number" name="year" min="1900" max="2023" />
+        </label>
+
+      </fieldset>
+      <br />
+
+      <!-- second fieldset with academic information -->
+      <fieldset>
+        <legend>Informações acadêmicas</legend>
+        Curso <br />
+
+        <!-- label and input for course EC -->
+        <label>
+          EC
+          <input id="EC" type="radio" name="course" value="ec" />
+        </label>
+
+        <br />
+
+        <!-- label and input for course CC -->
+        <label>
+          CC
+          <input id="CC" type="radio" name="course" value="cc" />
+        </label>
+
+        <br />
+
+        <!-- label and input for course SI -->
+        <label>
+          SI
+          <input id="SI" type="radio" name="course" value="si" />
+        </label>
+
+        <br />
+
+        <!-- label and input for course ES -->
+        <label>
+          ES
+          <input id="ES" type="radio" name="course" value="es" />
+        </label>
+
+        <br />
+
+        <!-- label and input for course DD -->
+        <label>
+          DD
+          <input id="DD" type="radio" name="course" value="dd" />
+        </label>
+
+        <br />
+
+        <!-- label and input for course RC -->
+        <label>
+          RC
+          <input type="radio" name="course" value="rc" />
+        </label>
+
+        <br />
+        Disciplinas favoritas <br />
+
+        <!-- label and input for discipline POO -->
+        <label>
+          <input type="checkbox" value="poo" />
+          POO
+        </label>
+
+        <br />
+        
+        <!-- label and input for discipline FBD -->
+        <label>
+          <input type="checkbox" value="FBD" />
+          FBD
+        </label>
+
+        <br />
+
+        <!-- label and input for discipline WEB -->
+        <label>
+          <input type="checkbox" value="WEB" />
+          WEB
+        </label>
+
+        <br />
+
+        <!-- label and input for discipline LMS -->
+        <label>
+          <input type="checkbox" value="LMS" />
+          LMS
+        </label>
+
+        <br />
+
+        <!-- label and input for discipline Eletrônica -->
+        <label>
+          <input type="checkbox" value="eletronica" />
+          Eletrônica
+        </label>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+  </article>
+
+</body>
+
+</html>
