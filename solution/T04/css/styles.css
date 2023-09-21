@@ -129,6 +129,7 @@ button:hover {
   padding: 3%;
   background-color: #07adfa;
   font-family: 'Times New Roman', Times, serif;
+  height: 400px;
 }
 
 .dropdown {
